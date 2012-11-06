@@ -26,6 +26,11 @@ end
 	puts "the number is #{x}"
 end
 
+person.each do |key, value|
+	puts "the key is #{key} and the value is #{value}"
+end
+
+
 
 
 binding.pry
